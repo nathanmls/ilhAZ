@@ -1,0 +1,196 @@
+[
+        {
+            "type": "internal",
+            "trans": "Página Inicial",
+            "page": "customTabs",
+            "icon": "home",
+            "navRoot": true
+        },
+    
+    {
+        "type": "folder",
+        "trans": "Eventos",
+        "icon": "flame",
+        "list": [
+            {
+                "type": "internal",
+                "sub":"customTabs",
+                "trans": "Todos os Eventos",
+                "page": "category",
+                "params": {
+                    "id": "3"
+                },
+                "icon": "folder"
+            },
+            {
+                "type": "internal",
+                "trans": "Festas",
+                "page": "category",
+                "params": {
+                    "id": "20"
+                },
+                "icon": "happy"
+            },
+            {
+                "type": "internal",
+                "trans": "Shows",
+                "page": "category",
+                "params": {
+                    "id": "25"
+                },
+                "icon": "musical-notes"
+            },
+            {
+                "type": "internal",
+                "trans": "Teatro",
+                "page": "category",
+                "params": {
+                    "id": "4"
+                },
+                "icon": "people"
+            },
+            {
+                "type": "internal",
+                "trans": "Entrada Franca",
+                "page": "category",
+                "params": {
+                    "id": "28"
+                },
+                "icon": "logo-usd"
+            }
+        ]
+    },
+    {
+        "type": "folder",
+        "trans": "O que Fazer?",
+        "icon": "help",
+        "list": [
+            {
+                "type": "internal",
+                "trans": "Bares",
+                "page": "category",
+                "params": {
+                    "id": "27"
+                },
+                "icon": "beer"
+            },
+            {
+                "type": "internal",
+                "trans": "Restaurantes",
+                "page": "category",
+                "params": {
+                    "id": "26"
+                },
+                "icon": "restaurant"
+            },
+            {
+                "type": "internal",
+                "trans": "Casas Noturnas",
+                "page": "category",
+                "params": {
+                    "id": "29"
+                },
+                "icon": "restaurant"
+            },
+            {
+                "type": "internal",
+                "trans": "Cinemas",
+                "page": "category",
+                "params": {
+                    "id": "21"
+                },
+                "icon": "restaurant"
+            },
+            {
+                "type": "internal",
+                "trans": "Cultura",
+                "page": "category",
+                "params": {
+                    "id": "31"
+                },
+                "icon": "restaurant"
+            },
+            {
+                "type": "internal",
+                "trans": "Lanches",
+                "page": "category",
+                "params": {
+                    "id": "24"
+                },
+                "icon": "restaurant"
+            },
+            {
+                "type": "internal",
+                "trans": "All",
+                "page": "Todos os Eventos",
+                "params": {
+                    "id": "23"
+                },
+                "icon": "folder",
+                "navRoot": true
+            }
+        ]
+    },
+    {
+        "type": "folder",
+        "trans": "Turismo",
+        "icon": "map",
+        "list": [
+            {
+                "type": "internal",
+                "trans": "Hospedagem",
+                "page": "category",
+                "params": {
+                    "id": "18"
+                },
+                "icon": "pin"
+            },
+            {
+                "type": "internal",
+                "trans": "Guia e Dicas",
+                "page": "category",
+                "params": {
+                    "id": "33"
+                },
+                "icon": "thumbs-up"
+            },
+            {
+                "type": "internal",
+                "trans": "Bate Volta",
+                "page": "category",
+                "params": {
+                    "id": "19"
+                },
+                "icon": "swap"
+            }
+        ]
+    },
+        {
+            "type": "external",
+            "trans": "Contato (Whatsapp)",
+            "href": "https://api.whatsapp.com/send?phone=98991971194",
+            "icon": "logo-whatsapp"
+        },
+
+        {
+            "type": "internal",
+            "trans": "BOOKMARKS",
+            "page": "bookmarks",
+            "params": {},
+            "icon": "bookmarks",
+            "navRoot": true
+        },
+        {
+            "type": "internal",
+            "trans": "SETTINGS",
+            "page": "params",
+            "params": {},
+            "icon": "settings"
+        },
+        {
+            "type": "external",
+            "trans": "Facebook (link externo)",
+            "href": "https://facebook.com.br/ilhaz",
+            "icon": "logo-facebook"
+        }
+]

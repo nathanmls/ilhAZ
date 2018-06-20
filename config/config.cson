@@ -1,0 +1,43 @@
+# Here you can overwrite any of the src/config.default.cson
+title: "IlhAZ"
+search:
+    types: ['posts', 'pages']
+api:
+    baseUrl: "http://cervus.com.br/ilhaz/wp-json/"
+
+# Static metas (for SEO purpose)
+# Each page will dynamically overwrite those
+metas:
+    title: 'IlhAZ'
+    description: 'São Luís de A a Z'
+    themeColor: '#4e8ef7'
+    # Open graph
+    ogTitle: 'IlhAZ'
+    ogType: 'website'
+    ogUrl: 'http://cervus.com.br/ilhaz'
+    ogImage: 'http://cervus.com.br/ilhaz/ilhaz.png'
+    ogImageWidth: 400
+    ogImageHeight: 400
+    # Twitter card
+    twitterSite: ''
+    twitterCreator: '' # e.g @julienrenaux
+
+defaultPage:
+    page: 'customTabs'
+
+tabs:
+    highlight: true
+    color: 'light' # "primary", "secondary", "danger", "light", and "dark"
+    mode: 'md' # "ios", "md", or "wp"
+    placement: 'bottom' # top, bottom or null (will apply the device preference)
+    layout: 'icon-top' # icon-top, icon-left, icon-right, icon-bottom, icon-hide, title-hide
+
+defaultZoom: 2 # Available: 0 to 8
+
+admob:
+    bannerEnabled: false
+    interstitialEnabled: false
+    config:
+        publisherId: null
+        interstitialAdId: null
+        isTesting: true

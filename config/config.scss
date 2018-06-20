@@ -1,0 +1,19 @@
+// http://ionicframework.com/docs/theming/theming-your-app/
+// You can overwrite any of this project + Ionic variables
+// Ionic variables: http://ionicframework.com/docs/theming/overriding-ionic-variables/
+// Project variables: src/theme/variables.scss
+
+//Uncomment to start overwritting colors
+$colors: (
+    primary:    #f48217,
+    secondary:  #3b3b3b,
+    danger:     #f53d3d,
+    light:      #f4f4f4,
+    dark:       #222
+  );
+//$app-direction: rtl;
+.ion-title img{
+  margin-top: 8px;
+  height: 27px;
+
+}
