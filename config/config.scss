@@ -8,12 +8,13 @@ $colors: (
     primary:    #f48217,
     secondary:  #3b3b3b,
     danger:     #f53d3d,
-    light:      #f4f4f4,
+    light:      #ffffff,
     dark:       #222
   );
+
+  $gray-base:#f48217;
 //$app-direction: rtl;
 .ion-title img{
   margin-top: 8px;
   height: 27px;
-
 }

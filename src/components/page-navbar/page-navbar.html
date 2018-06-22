@@ -9,7 +9,8 @@
   <button ion-button menuToggle icon-only>
     <ion-icon name='menu'></ion-icon>
   </button>
-  <ion-title><span [innerHtml]="title"></span></ion-title>
+  <ion-title><img class="title-image" alt="logo" height="40" src="assets/img/logo.png" > <!--<span [innerHtml]="title"></span>--></ion-title>
+
   <ion-buttons end>
     <ng-content></ng-content>
     <button ion-button icon-only (click)="goToSearch()" *ngIf="search">

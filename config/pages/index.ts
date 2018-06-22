@@ -19,8 +19,7 @@ import { ParamsPage } from '../../src/pages/params/params';
 import { BookmarksPage } from '../../src/pages/bookmarks/bookmarks';
 import { TaxonomiesModal } from '../../src/pages/taxonomies-modal/taxonomies-modal';
 // Custom (this is just an example on how to add custom post types and can be removed)
-import { ItemDestaquePage } from './item-destaque';
-import { ListDestaquePage } from './list-destaque';
+
 // Tabs (this is just an example on how to add tabs and can be removed)
 import { CustomTabsPage } from './custom-tabs';
 
@@ -39,8 +38,7 @@ export const MenuMapping = {
     params: ParamsPage,
     bookmarks: BookmarksPage,
     // Custom (this is just an example on how to add custom post types and can be removed)
-    destaque: ItemDestaquePage,
-    destaques: ListDestaquePage,
+
     // Tabs (this is just an example on how to add tabs and can be removed)
     customTabs: CustomTabsPage,
 }
@@ -61,8 +59,7 @@ export const DeepLinkerLnks = [
     { component: ListAuthorsPage, name: 'Authors', segment: 'authors' },
     { component: ListAuthorPage, name: 'Author', segment: 'author/:id' },
     // Custom (this is just an example on how to add custom post types and can be removed)
-    { component: ItemDestaquePage, name: 'Destaque', segment: 'destaque/:id' },
-    { component: ListDestaquePage, name: 'Destaques', segment: 'destaques' },
+
     // Tabs (this is just an example on how to add tabs and can be removed)
     { component: CustomTabsPage, name: 'Custom tabs', segment: 'custom-tabs' },
 ];
@@ -85,8 +82,7 @@ export const PAGES = [
     BookmarksPage,
     TaxonomiesModal,
     // Custom (this is just an example on how to add custom post types and can be removed)
-    ItemDestaquePage,
-    ListDestaquePage,
+
     // Tabs (this is just an example on how to add tabs and can be removed)
     CustomTabsPage,
 ];

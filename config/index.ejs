@@ -30,7 +30,7 @@
   <meta name="msapplication-tap-highlight" content="<%= htmlWebpackPlugin.options.config.metas.tapHighlight %>">
   <meta name="theme-color" content="<%= htmlWebpackPlugin.options.config.metas.themeColor %>">
 
-  <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="assets/icons/favicon.png">
   <link rel="manifest" href="manifest.json">
   <!-- cordova.js required for cordova apps -->
   <script src="cordova.js"></script>
@@ -45,23 +45,7 @@
 
   <!-- Ionic's root component and where the app will load -->
   <ion-app>
-    <ion-content no-bounce>
-      <ion-tabs
-        #tabs
-        [mode]="tabsMode"
-        [tabsLayout]="tabsLayout"
-        [tabsHighlight]="tabsHighlight"
-        [tabsPlacement]="tabsPlacement"
-        [color]="tabsColor">
-        <ion-tab
-          *ngFor="let item of list; trackBy: trackBy"
-          [tabIcon]="item.icon"
-          [tabTitle]="item.trans | translate"
-          [root]="menuMapping[item.page]"
-          [rootParams]="item.params"
-        ></ion-tab>
-      </ion-tabs>
-    </ion-content>
+
   </ion-app>
 
   <script type="text/javascript">

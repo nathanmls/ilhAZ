@@ -26,13 +26,8 @@ export class CustomTabsPage extends TabsPage {
         icon: 'star',
     }, {
         type: 'internal',
-        trans: 'PAGES',
-        page: 'pages',
-        icon: 'copy',
-    }, {
-        type: 'internal',
         trans: 'CATEGORIES',
         page: 'categories',
-        icon: 'folder',
+        icon: 'apps',
     }]
 }

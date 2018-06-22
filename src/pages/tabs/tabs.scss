@@ -1,3 +1,8 @@
 page-tabs {
-
+    .tabs-md-light .tab-button:hover:not(.disable-hover), .tabs-md-light .tab-button[aria-selected="true"]{
+        color: red;
+    }
+    .tab-button[aria-selected="true"]{
+        color: #f48217;
+    }
 }

@@ -2,4 +2,12 @@ page-navbar {
     .button{
         box-shadow: none;
     }
+    ion-title{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding-top: 7px;
+    }
 }

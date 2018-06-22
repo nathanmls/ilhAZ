@@ -28,10 +28,6 @@ import { MovieListComponent } from './movie-list/movie-list';
 import { ActorListComponent } from './actor-list/actor-list';
 import { MovieItemComponent } from './movie-item/movie-item';
 
-import { DestaqueListComponent } from './destaque-list/destaque-list';
-import { DestaqueItemComponent } from './destaque-item/destaque-item';
-
-
 export const ComponentsMapping = {
     // items
     'posts-item': PostsItemComponent,
@@ -46,8 +42,6 @@ export const ComponentsMapping = {
     // it is important to keep the naming convention <type>-item because we use this pattern
     // to load those components dynamically
     'movie-item': MovieItemComponent,
-    'destaque-list': DestaqueListComponent,
-    'destaque-item': DestaqueItemComponent,
     // it is important to keep the naming convention <type>-list because we use this pattern
     // to load those components dynamically
     'movie-list': MovieListComponent,
@@ -81,6 +75,4 @@ export const COMPONENTS = [
     MovieListComponent,
     MovieItemComponent,
     ActorListComponent,
-    DestaqueListComponent,
-    DestaqueItemComponent,
 ];
