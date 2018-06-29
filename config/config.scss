@@ -13,8 +13,15 @@ $colors: (
   );
 
   $gray-base:#f48217;
-//$app-direction: rtl;
+
 .ion-title img{
   margin-top: 8px;
   height: 27px;
 }
+
+$card-md-border-radius:10px;
+
+
+$toolbar-button-color:#51514e;
+
+button {z-index: 9999;}

@@ -14,16 +14,6 @@
         "list": [
             {
                 "type": "internal",
-                "sub":"customTabs",
-                "trans": "Todos os Eventos",
-                "page": "category",
-                "params": {
-                    "id": "3"
-                },
-                "icon": "folder"
-            },
-            {
-                "type": "internal",
                 "trans": "Festas",
                 "page": "category",
                 "params": {
@@ -90,7 +80,7 @@
                 "params": {
                     "id": "29"
                 },
-                "icon": "restaurant"
+                "icon": "moon"
             },
             {
                 "type": "internal",
@@ -99,7 +89,7 @@
                 "params": {
                     "id": "21"
                 },
-                "icon": "restaurant"
+                "icon": "videocam"
             },
             {
                 "type": "internal",
@@ -117,18 +107,9 @@
                 "params": {
                     "id": "24"
                 },
-                "icon": "restaurant"
-            },
-            {
-                "type": "internal",
-                "trans": "All",
-                "page": "Todos os Eventos",
-                "params": {
-                    "id": "23"
-                },
-                "icon": "folder",
-                "navRoot": true
+                "icon": "pizza"
             }
+
         ]
     },
     {

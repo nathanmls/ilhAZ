@@ -16,7 +16,6 @@
   ></div>
   <ion-card-content (click)="onClick && onClick($event, post)">
     <ion-card-title [innerHtml]="post.title.rendered"></ion-card-title>
-    <author [author]="author$ | async" [date]="post.date"></author>
     <p [innerHtml]="post.excerpt.rendered"></p>
   </ion-card-content>
   <toolbar

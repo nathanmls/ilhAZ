@@ -82,9 +82,9 @@ export class ToolbarComponent {
 
   share() {
     this.socialSharing.share(this.shareMessage, this.shareSubject, null, this.shareUrl).then(() => {
-      this.toast.show(this.translate.instant('SHARE_SUCCESS'));
+      this.toast.show(this.translate.instant('Compartilhado'));
     }).catch(() => {
-      this.toast.show(this.translate.instant('SHARE_ERROR'));
+      this.toast.show(this.translate.instant('Erro no Compartilhamento'));
     });
   }
 
