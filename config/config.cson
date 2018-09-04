@@ -27,7 +27,7 @@ defaultPage:
 
 tabs:
     highlight: true
-    color: 'light' # "primary", "secondary", "danger", "light", and "dark"
+    color: 'primary' # "primary", "secondary", "danger", "light", and "dark"
     mode: 'md' # "ios", "md", or "wp"
     placement: 'bottom' # top, bottom or null (will apply the device preference)
     layout: 'icon-top' # icon-top, icon-left, icon-right, icon-bottom, icon-hide, title-hide

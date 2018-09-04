@@ -6,9 +6,9 @@
 //Uncomment to start overwritting colors
 $colors: (
     primary:    #f48217,
-    secondary:  #3b3b3b,
+    secondary:  #222222,
     danger:     #f53d3d,
-    light:      #ffffff,
+    light:      #f2f2f2,
     dark:       #222
   );
 
@@ -21,6 +21,77 @@ $colors: (
 
 $card-md-border-radius:10px;
 
+//light
+
+.tabs-md-light .tab-button[aria-selected="true"], .tabs-md-light .tab-button[aria-selected="true"] .tab-button-icon {
+  color: #f48217 !important;
+  margin-top: -12px;
+  transition: 500ms;
+}
+
+.tabs-md-light[tabsHighlight="true"] .tab-highlight{
+  background-color: #f2f2f2;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  z-index: -1;
+  margin-top: -20px;
+  height: 150%;
+}
+
+//Primary
+
+.tabs-md-primary .tab-button[aria-selected="true"], .tabs-md-primary .tab-button[aria-selected="true"] .tab-button-icon {
+  color: #ffffff !important;
+  margin-top: -12px;
+  transition: 500ms;
+}
+
+.tabs-md-primary[tabsHighlight="true"] .tab-highlight{
+  background-color: #f48217;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  z-index: -1;
+  margin-top: -20px;
+  height: 150%;
+}
+
+.tabs-md-primary .tab-button[aria-selected="false"], .tabs-md-primary .tab-button[aria-selected="false"] .tab-button-icon {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+//Secondary
+
+.tabs-md-secondary .tab-button[aria-selected="true"], .tabs-md-secondary .tab-button[aria-selected="true"] .tab-button-icon {
+  color: #222222 !important;
+  margin-top: -12px;
+  transition: 500ms;
+}
+
+.tabs-md-secondary[tabsHighlight="true"] .tab-highlight{
+  background-color: #f48217;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  z-index: -1;
+  margin-top: -20px;
+  height: 150%;
+}
+
+//Dark
+
+.tabs-md-dark .tab-button[aria-selected="true"], .tabs-md-dark .tab-button[aria-selected="true"] .tab-button-icon {
+  color: #222222 !important;
+  margin-top: -12px;
+  transition: 500ms;
+}
+
+.tabs-md-dark[tabsHighlight="true"] .tab-highlight{
+  background-color: #f48217;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  z-index: -1;
+  margin-top: -20px;
+  height: 150%;
+}
 
 $toolbar-button-color:#51514e;
 
